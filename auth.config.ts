@@ -21,5 +21,6 @@ console.log('PROXY DEBUG - isLoggedIn:', isLoggedIn);
     },
   },
 
-  providers: [],
+ providers: [],
+trustHost: true,
 } satisfies NextAuthConfig;
